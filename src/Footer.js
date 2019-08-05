@@ -6,9 +6,9 @@ class Footer extends Component {
     // Method for 
     render() {
         return(
-            <div className="footer">
-                <p>Hei, her er en footer</p>
-            </div>
+            <footer className="footer">
+                <p>Copyright - Marius Grøndahl</p>
+            </footer>
         );
     }
 }

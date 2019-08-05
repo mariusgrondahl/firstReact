@@ -1,29 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import Footer from './Footer';
 import Header from './Header';
+import Wrapper from './Wrapper';
+import Hero from './Hero';
+import Card from './Card'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <Header name="Testbruker" message="Hva skjer a?"/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Footer />
+
+      <Header/>
+      <Hero title="Say hello to ReactJS" 
+            description="You will learn a Frontend framework
+            form scratch, to become a Ninja Developer"
+      />
+
+      <Wrapper>
+          <Card title="Declarative" 
+                description="React makes it painless to create interactive UIs." 
+                img="./images/icon1.png" 
+          />
+          <Card title="Declarative" 
+                description="React makes it painless to create interactive UIs." 
+                img="./images/icon2.png" 
+          />
+          <Card title="Declarative" 
+                description="React makes it painless to create interactive UIs." 
+                img="./images/icon3.png" 
+          />
+          <Card title="Declarative" 
+                description="React makes it painless to create interactive UIs." 
+                img="./images/icon4.png" 
+          />
+      </Wrapper>
+      <Footer />  
+
     </div>
   );
 }
