@@ -1,0 +1,30 @@
+.Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60vh;
+    background: #202534;
+
+    padding: 2rem 4rem;;
+  }
+  
+  .Hero p{
+    font-size: 1.4rem;
+  }
+  
+  .Hero h1, .Hero p{
+    color: #fff;
+    margin: .8rem 0rem;
+  }
+
+  .Hero button{
+      background: white;
+      color: #2d2d2d;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 3px;
+      border: none;
+
+  }

@@ -21,21 +21,22 @@ function App() {
                 description="React makes it painless to create interactive UIs." 
                 img="./images/icon1.png" 
           />
-          <Card title="Declarative" 
-                description="React makes it painless to create interactive UIs." 
+          <Card title="Components" 
+                description="Build encapsulated components." 
                 img="./images/icon2.png" 
           />
-          <Card title="Declarative" 
-                description="React makes it painless to create interactive UIs." 
+          <Card title="Single-way" 
+                description="A set of immutable values are passed to the component`s." 
                 img="./images/icon3.png" 
           />
-          <Card title="Declarative" 
-                description="React makes it painless to create interactive UIs." 
+          <Card title="JSX" 
+                description="Statically-typed designed to run on modern browsers." 
                 img="./images/icon4.png" 
           />
       </Wrapper>
-      <Footer />  
 
+      <Footer />  
+      
     </div>
   );
 }
